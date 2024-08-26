@@ -33,6 +33,15 @@
     - tag: Researched visual quality across near-eye display systems in a diverse consortium, achieving improvement in the computing performance-to-quality efficiency in rendering
   timeline-side: right
 
+- title: Technical University of Denmark
+  title-url: 
+  date: Dec 2018 - Aug 2022
+  subtitle: Doctor of Philosophy - Electrical and Photonics
+  tags: 
+    - tag: Perception-Driven Rendering
+    - tag: Near-Eye Display Systems
+  timeline-side: left
+
 - title: University of Cambridge
   title-url: 
   date: Oct 2021 - Jan 2022
@@ -41,7 +50,7 @@
     - tag: Conducted a subjective experiment and generated a dataset on an HDR-multi-focal-stereo display, then developed a visual model for the perceptual opacity of virtual objects in AR fitting to the subjective data
   timeline-side: right
 
-- title: BBC Research & Development Department
+- title: BBC R&D
   title-url: 
   date: Feb 2020 - May 2020
   subtitle: Research And Development Intern
@@ -56,15 +65,6 @@
   tags:
     - tag: Developed automation tools using Perl, Python and Arduino to profile the performance & power consumption of GPUs and managed the data archive
   timeline-side: right
-
-- title: Technical University of Denmark
-  title-url: 
-  date: Dec 2018 - Aug 2022
-  subtitle: Doctor of Philosophy - Electrical and Photonics
-  tags: 
-    - tag: Perception-Driven Rendering
-    - tag: Near-Eye Display Systems
-  timeline-side: left
 
 - title: Carnegie Mellon University
   title-url: 
