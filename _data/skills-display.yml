@@ -5,17 +5,26 @@
 # - name: Language
 #   weight: 5
 
+- name: Near-Eye Displays
+  weight: 5
+
+- name: AR/VR
+  weight: 5
+
+- name: Deep Optics
+  weight: 3
+
+- name: Zemax
+  weight: 2
+
+- name: HoloLens
+  weight: 3
+
+- name: Laser Beam Scanning
+  weight: 4
+
 - name: Python
   weight: 5
 
-- name: C/C++/C#
-  weight: 3
-
-- name: HTML5/CSS3
-  weight: 3
-
-- name: Perl
-  weight: 3
-
-- name: HLSL
-  weight: 3
+- name: Arduino
+  weight: 4

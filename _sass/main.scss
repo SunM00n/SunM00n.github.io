@@ -8,26 +8,27 @@
 $small-screen: 48em !default;
 $medium-screen: 62em !default;
 $large-screen: 75em !default;
-$font-family: "Overpass", sans-serif;
-$font-family-numbers: "Overpass", sans-serif;
+$font-family-title: "Signika Negative", sans-serif;
+$font-family-text: "Overpass", sans-serif;
 $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
-$text-color: #2c2e35 !default;
+$text-color: #595b61 !default;
+$text-color-light: #6e6e70;
 $bg-color: #fcfbfa;
+$primary-color: #cba67a;
 $card-bg-color: linear-gradient(
   145deg,
-  rgba(115, 115, 115, 0.15) 15%,
-  #fcfbfa 80%
+  #cba77a4b,
+  $bg-color
 );
-$primary-color: #caa679;
 
 /* General */
 
 html {
   background: $bg-color;
   color: $text-color;
-  font-family: $font-family;
+  font-family: $font-family-text;
   font-size: $font-size-base;
   font-weight: normal;
   height: 100%;
@@ -41,6 +42,7 @@ body {
 /* Typography */
 
 h1 {
+  font-family: $font-family-title;
   font-size: $font-size-h1;
   font-weight: $font-weight-strong;
   line-height: 2rem;
@@ -61,7 +63,7 @@ a {
 
 .highlight-title {
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  //text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
 }
 
 .highlight-link {
@@ -103,38 +105,41 @@ a {
 }
 
 .layout .card .description {
-  text-align: justify;
+  text-align: left;
+  color: $text-color-light;
 }
 
 .neumorphism-button {
-  background: linear-gradient(
-    145deg,
-    rgba(100, 100, 105, 0.15) 15%,
-    rgba(33, 33, 33, 0.4) 80%
-  );
-  box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
-    4px 4px 2px 0 rgba(0, 0, 0, 0.4);
+  background: $bg-color;
+  //background: linear-gradient(
+  //  145deg,
+  //  #cba77a4b,
+  //  $bg-color
+  //);
+  //box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
+  //  4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 @mixin neumorphism-button-pressed {
-  background: linear-gradient(
-    150deg,
-    rgba(20, 20, 20, 0.4) 10%,
-    rgba(115, 115, 115, 0.15) 80%
-  );
-  box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
-    -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
-    inset -1px -2px 2px rgba(210, 210, 210, 0.4);
+  background: $primary-color;
+  //background: linear-gradient(
+  //  150deg,
+  //  rgba(20, 20, 20, 0.4) 10%,
+  //  rgba(115, 115, 115, 0.15) 80%
+  //);
+//  box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
+//    -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
+//    inset -1px -2px 2px rgba(210, 210, 210, 0.4);
 }
 
 .neumorphism-card {
-  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+//  box-shadow: inset 2px 2px 4px $primary-color,
+//    inset -2px -2px 4px $bg-color;
 }
 
-.neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
-}
+//.neumorphism-card-big {
+  //box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+//}
 
 /* Preloader */
 
@@ -274,7 +279,7 @@ a {
     }
 
     .social-svg {
-      fill: #caa679;
+      fill: #cba67a;
     }
 
     .label {
@@ -286,13 +291,13 @@ a {
 
       .circle {
         animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
-          colorBlackIcon 1s linear forwards;
-        fill: $text-color;
+          colorIcon 1s linear forwards;
+        fill: $text-color-light;
         fill-opacity: 1;
       }
 
       .social-svg {
-        fill: #000;
+        fill: $bg-color;
       }
 
       .label {
@@ -306,10 +311,10 @@ a {
   .email:hover {
     .circle {
       animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
-        colorEmail 1s linear forwards;
+        colorIcon 1s linear forwards;
     }
     .social-svg {
-      fill: #caa679;
+      fill: $bg-color;
     }
   }
 
@@ -353,17 +358,17 @@ a {
     }
   }
 
-  @keyframes colorBlackIcon {
+  @keyframes colorIcon {
     to {
-      stroke: #000;
+      stroke: #cba67a;
     }
   }
 
-  @keyframes colorEmail {
-    to {
-      stroke: #caa679;
-    }
-  }
+//  @keyframes colorEmail {
+//    to {
+//      stroke: #cba67a;
+//    }
+//  }
 
   @keyframes colorLinkedin {
     to {
@@ -391,16 +396,16 @@ a {
     transition: opacity 0.5s;
   }
 
-  div[skill-type="language"] {
+  div[skill-type="display"] {
     color: #e84a5f;
   }
 
-  div[skill-type="framework"] {
-    color: #ff847c;
+  div[skill-type="rendering"] {
+    color: #ff825d;
   }
 
-  div[skill-type="tool"] {
-    color: #fecea8;
+  div[skill-type="vision"] {
+    color: #ffbc86;
   }
 
   div[skill-weight="1"] {
@@ -536,14 +541,29 @@ a {
     }
   }
 
+  .title-wrapper {
+    color: $primary-color;
+    display: inline-block;
+    line-height: 0.5rem;
+    margin-top: 0.3rem;
+  }
+  
+  .timeline-title {
+    font-weight: $font-weight-strong;
+    background: $bg-color;
+    border-radius: 0.5rem;
+    display: inline-block;
+    padding: .6rem;
+  }
+
   .time-wrapper {
-    color: $text-color;
     display: block;
     line-height: 0.5rem;
     margin-top: 0.3rem;
   }
 
   .time {
+    color: $text-color-light;
     background: $bg-color;
     border-radius: 0.5rem;
     display: inline-block;
@@ -551,6 +571,7 @@ a {
   }
 
   .desc {
+    color: $text-color-light;
     background: $bg-color;
     border-radius: 1rem;
     margin: 1em 0 0 0;
@@ -579,11 +600,12 @@ a {
 
 .project-desc {
   line-height: 1rem;
+  color: $text-color-light;
 }
 
 .project-stars-forks {
-  fill: $text-color;
-  font-family: $font-family-numbers;
+  fill: $text-color-light;
+  font-family: $font-family-text;
 }
 
 .tag-wrapper {
@@ -631,7 +653,7 @@ a {
 
   .black:hover {
     .social-svg {
-      fill: #000;
+      fill: $text-color;
     }
   }
 
@@ -658,10 +680,12 @@ a {
 
   .layout .card .subtitle {
     font-size: 1.25rem;
+    color: $text-color-light;
   }
 
   .layout .card .description {
     font-size: 1.25rem;
+    color: $text-color-light;
   }
 
   .landing-title h1 {
@@ -727,23 +751,23 @@ a {
     }
 
     input[type="radio"]:checked + .filter-button {
-      color: $primary-color;
+      //color: $primary-color;
       font-weight: $font-weight-strong;
       @include neumorphism-button-pressed();
     }
 
-    input[id="language"]:checked ~ div[skill-type="framework"],
-    input[id="language"]:checked ~ div[skill-type="tool"] {
+    input[id="display"]:checked ~ div[skill-type="rendering"],
+    input[id="display"]:checked ~ div[skill-type="vision"] {
       @include filter-out;
     }
 
-    input[id="framework"]:checked ~ div[skill-type="language"],
-    input[id="framework"]:checked ~ div[skill-type="tool"] {
+    input[id="rendering"]:checked ~ div[skill-type="display"],
+    input[id="rendering"]:checked ~ div[skill-type="vision"] {
       @include filter-out;
     }
 
-    input[id="tool"]:checked ~ div[skill-type="language"],
-    input[id="tool"]:checked ~ div[skill-type="framework"] {
+    input[id="vision"]:checked ~ div[skill-type="display"],
+    input[id="vision"]:checked ~ div[skill-type="rendering"] {
       @include filter-out;
     }
   }

@@ -11,7 +11,7 @@ baseurl: ""
 
 # LANDING PAGE
 # username: This will displayed on the landing page as your name.
-username: Jade Liu
+username: Jingyu (Jade) Liu
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
 typing_text: Imaging & Display System Researcher
@@ -25,6 +25,7 @@ codepen_username:
 dev_username: 
 linkedin_username: jingyu-liu
 twitter_username: 
+scholar_username: ODP-ZqIAAAAJ
 
 # ABOUT ME SECTION
 # show_aboutme_card:
@@ -42,7 +43,7 @@ about_me_description: I am an experienced researcher with over 10 years of exper
 # > setting this to false, will omit the Skills section
 show_skills_card: true
 # about_me_title: The will be displayed as the title in the Skills section
-skills_title: Skills
+skills_title: Research Interests & Skills
 
 # TIMELINE SECTION
 # show_timeline_card:
@@ -50,7 +51,7 @@ skills_title: Skills
 # > setting this to false, will omit the Timeline section
 show_timeline_card: true
 # timeline_title: The will be displayed as the title in the Timeline section
-timeline_title: Education & Experience
+timeline_title: Experience & Education
 # cv_download_link: The link where you host your cv.
 # > e.g. you share your cv on your dropbox, then add the dropbox link here
 cv_download_link: https://drive.google.com/file/d/1FHJlPcDkOM1FPTHgLG1M1Y8aA3BOIVZN/view?usp=drive_link

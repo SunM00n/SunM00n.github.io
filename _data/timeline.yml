@@ -22,9 +22,7 @@
   date: Sep 2023 - Present
   subtitle: System Scientist
   tags:
-    - tag: Python
-    - tag: Matlab
-    - tag: Blender
+    - tag: Investigate, simulate, and model perceptual visual quality for LBS display systems, leveraging insights from human vision science
   timeline-side: right
 
 - title: Technical University of Denmark
@@ -32,9 +30,23 @@
   date: Dec 2018 - Jun 2023
   subtitle: Early Stage Researcher
   tags:
-    - tag: Unity
-    - tag: Unreal
-    - tag: C++
+    - tag: Researched visual quality across near-eye display systems in a diverse consortium, achieving improvement in the computing performance-to-quality efficiency in rendering
+  timeline-side: right
+
+- title: University of Cambridge
+  title-url: 
+  date: Oct 2021 - Jan 2022
+  subtitle: Visiting Researcher
+  tags:
+    - tag: Conducted a subjective experiment and generated a dataset on an HDR-multi-focal-stereo display, then developed a visual model for the perceptual opacity of virtual objects in AR fitting to the subjective data
+  timeline-side: right
+
+- title: BBC Research & Development Department
+  title-url: 
+  date: Feb 2020 - May 2020
+  subtitle: Research And Development Intern
+  tags:
+    - tag: Experimented on concentric mosaic light field and benchmarked view synthesis and 3D reconstruction methods classified by geometric proxies
   timeline-side: right
 
 - title: Advanced Micro Devices
@@ -42,7 +54,33 @@
   date: Jul 2017 - Nov 2018
   subtitle: (Senior) Software Development Engineer
   tags:
-    - tag: Perl
-    - tag: HTML/CSS
-    - tag: Arduino
+    - tag: Developed automation tools using Perl, Python and Arduino to profile the performance & power consumption of GPUs and managed the data archive
+  timeline-side: right
+
+- title: Technical University of Denmark
+  title-url: 
+  date: Dec 2018 - Aug 2022
+  subtitle: Doctor of Philosophy - Electrical and Photonics
+  tags: 
+    - tag: Perception-Driven Rendering
+    - tag: Near-Eye Display Systems
+  timeline-side: left
+
+- title: Carnegie Mellon University
+  title-url: 
+  date: Aug 2014 - May 2016
+  subtitle: Master of Technology - Enertainment
+  tags: 
+    - tag: Computer Graphics
+    - tag: Game Development
+    - tag: Virtual Reality
+  timeline-side: left
+
+- title: Huazhong University of Science and Technology
+  title-url: 
+  date: Sep 2010 - Jun 2014
+  subtitle: Becholar of Engineering - Electronics and Information
+  tags: 
+    - tag: Gesture Recognition
+    - tag: Image Processing
   timeline-side: left
