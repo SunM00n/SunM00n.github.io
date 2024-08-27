@@ -23,11 +23,19 @@
     - tag: Foveated Rendering
     - tag: Human Visual Model
 
+- name: How Bright Should a Virtual Object Be to Appear Opaque in Optical See-Through AR?
+  descr: "Liu, J., Jindal, A., Mantel, C., Forchhammer, S. and Mantiuk, R.K., 2022, October. How bright should a virtual object be to appear opaque in optical see-through AR?. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE."
+  demo: https://www.youtube-nocookie.com/embed/G4tjHNHBh0c?si=MEuKynwXOQgJ3vL9
+  doi: https://doi.org/10.1109/ISMAR55827.2022.00085
+  tags:
+    - tag: Psychophysics
+    - tag: HDR Multi-Focal-Stereo Display
+    - tag: Optical See-Through AR
+
 - name: An Ant's Life, Storytelling in Virtual Reality
   descr: "Leo, C.J., Tsai, E., Yoon, A., Lee, K. and Liu, J., 2015, October. An Ant's Life: Storytelling in Virtual Reality. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play."
   demo: https://www.youtube-nocookie.com/embed/3unKl84aJY0?si=P3jJ4CCadfIcW9gf
   doi: https://doi.org/10.1145/2793107.2810264
-  openaccess: 
   tags:
     - tag: Oculus Rift
     - tag: PS Move
@@ -58,3 +66,12 @@
 - name: Computational 3D Display
   descr: "Liu, J., Zhong, F., Mantel, C., Forchhammer, S. and Mantiuk, R.K., 2023. Computational 3D displays. In Immersive Video Technologies. Academic Press."
   doi: https://doi.org/10.1016/B978-0-32-391755-1.00023-7
+
+- name: A Simulation System for Scene Synthesis in Virtual Reality
+  descr: "Liu, J., Mantel, C., Schweiger, F. and Forchhammer, S., 2021, November. A Simulation System for Scene Synthesis in Virtual Reality. In International Conference on Virtual Reality and Mixed Reality. Cham: Springer International Publishing."
+  doi: https://doi.org/10.1007/978-3-030-90739-6_5
+  openaccess: https://orbit.dtu.dk/en/publications/a-simulation-system-for-scene-synthesis-in-virtual-reality
+
+- name: Plenoptic Modeling and Measurements of Novel Displays
+  descr: "Liu, J., 2023. Plenoptic Modeling and Measurements of Novel Displays. (Doctoral dissertation)."
+  openaccess: https://orbit.dtu.dk/en/publications/plenoptic-modeling-and-measurements-of-novel-displays
