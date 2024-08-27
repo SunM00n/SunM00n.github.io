@@ -7,6 +7,16 @@
           <h3>{{project.name}}</h3>
         </div>
         <p class="project-desc">{{project.descr}}</p>
+        {% if project.doi %}
+          <a class="highlight-link" href="{{project.doi}}" target="_blank" rel="noreferrer">
+            DOI
+          </a>
+        {% endif %}
+        {% if project.openaccess %}
+          <a class="highlight-link" href="{{project.openaccess}}" target="_blank" rel="noreferrer">
+            Open Access
+          </a>
+        {% endif %}
         {% if project.demo %}
           <div class="demo-wrapper">
             <iframe src="{{project.demo}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -16,6 +16,8 @@
 - name: Perception-Driven Hybrid Foveated Depth of Field Rendering for Head-Mounted Displays
   descr: "Liu, J., Mantel, C. and Forchhammer, S., 2021, October. Perception-driven hybrid foveated depth of field rendering for head-mounted displays. In 2021 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE."
   demo: https://www.youtube-nocookie.com/embed/BxOjZeAl01Q?si=BXlSpXwhJb2QMAOR
+  doi: https://doi.org/10.1109/ISMAR52148.2021.00014
+  openaccess: https://orbit.dtu.dk/en/publications/perception-driven-hybrid-foveated-depth-of-field-rendering-for-he
   tags:
     - tag: Unity
     - tag: Foveated Rendering
@@ -24,10 +26,35 @@
 - name: An Ant's Life, Storytelling in Virtual Reality
   descr: "Leo, C.J., Tsai, E., Yoon, A., Lee, K. and Liu, J., 2015, October. An Ant's Life: Storytelling in Virtual Reality. In Proceedings of the 2015 Annual Symposium on Computer-Human Interaction in Play."
   demo: https://www.youtube-nocookie.com/embed/3unKl84aJY0?si=P3jJ4CCadfIcW9gf
+  doi: https://doi.org/10.1145/2793107.2810264
+  openaccess: 
   tags:
     - tag: Oculus Rift
     - tag: PS Move
     - tag: Storytelling
 
+- name: Whiteboard Cleaning Bot
+  descr: "A whiteboard cleaning bot with web camera based marks detection."
+  demo: https://www.youtube-nocookie.com/embed/lTpYznLAl7w?si=oQCcw0V00wv75gDj
+  tags:
+    - tag: Python
+    - tag: OpenCV
+    - tag: Arduino
+
+- name: Circle
+  descr: "A co-op and combat multiplayer game that allows players to join and leave at any time using the web brower on mobile phones."
+  demo: https://www.youtube-nocookie.com/embed/Ko9WS6pA46k?si=y7H0hU3LXTLp6hyB
+  tags:
+    - tag: Unity
+    - tag: WebGL
+
+- name: Demo Reel
+  descr: "A demo reel of some casual 2D paintings and 3D scenes."
+  demo: https://www.youtube-nocookie.com/embed/7-TPR18R4R8?si=I71CaXYIdHgnKUKZ
+  tags:
+    - tag: Maya
+    - tag: After Effect
+
 - name: Computational 3D Display
   descr: "Liu, J., Zhong, F., Mantel, C., Forchhammer, S. and Mantiuk, R.K., 2023. Computational 3D displays. In Immersive Video Technologies. Academic Press."
+  doi: https://doi.org/10.1016/B978-0-32-391755-1.00023-7
