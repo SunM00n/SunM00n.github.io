@@ -8,9 +8,9 @@
         </div>
         <p class="project-desc">{{project.descr}}</p>
         {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Demo
-          </a>
+          <div class="demo-wrapper">
+            <iframe src="{{project.demo}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
         {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">

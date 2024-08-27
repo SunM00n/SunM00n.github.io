@@ -31,29 +31,49 @@
     </div>
   </div>
   {% include landing-page.html %}
+  <nav>
+    <ul>
+      <li><a href="#landing"> Home </a></li>
+      {%if site.show_aboutme_card %}
+      <li><a href="#about"> About </a></li>
+      {% endif %}
+      {%if site.show_skills_card %} 
+      <li><a href="#keywords"> Keywords </a></li>
+      {% endif %}
+      {%if site.show_timeline_card %} 
+      <li><a href="#timeline"> Timeline </a></li>
+      {% endif %}
+      {%if site.show_projects_card %} 
+      <li><a href="#portfolio"> Portfolio </a></li>
+      {% endif %}
+      {%if site.show_contact_card %} 
+      <li><a href="#contact"> Contact </a></li>
+      {% endif %}
+    </ul>
+  </nav>
   <div class="layout">
     {%if site.show_aboutme_card %}
-      <section class="card neumorphism-card-big">
+      <section id="about" class="card neumorphism-card-big">
         {% include section-aboutme.html %}
       </section>
     {% endif %}
     {%if site.show_skills_card %}
-      <section class="card neumorphism-card-big">
+      <section id="keywords" class="card neumorphism-card-big">
         {% include section-skills.html %}
       </section>
     {% endif %}
     {%if site.show_timeline_card %}
-      <section class="card neumorphism-card-big">
+      <section id="timeline" class="card neumorphism-card-big">
         {% include section-timeline.html %}
       </section>
     {% endif %}
     {%if site.show_projects_card %}
-      <section class="card neumorphism-card-big">
+      <section id="portfolio" class="card neumorphism-card-big">
         {% include section-projects.html %}
       </section>
     {% endif %}
     {%if site.show_contact_card %}
-    <section class="card neumorphism-card-big">
+    <section id="contact" class="card neumorphism-card-big">
       {% include section-contact.html %}
     </section>
     {% endif %}
