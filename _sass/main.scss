@@ -126,7 +126,7 @@ section {
 }
 
 .layout .card .subtitle {
-  text-align: center;
+  text-align: left;
 }
 
 .layout .card .description {
@@ -330,6 +330,7 @@ section {
       .label {
         display: unset !important;
         position: relative;
+        white-space: nowrap;
         top: -2rem;
       }
     }
@@ -660,7 +661,6 @@ section {
     border-radius: 1rem;
     margin: 0.5em 0 0 0;
     padding: 0.75em;
-    text-align: center;
   }
 }
 
@@ -697,7 +697,7 @@ section {
 }
 
 .project-desc {
-  line-height: 1rem;
+  //line-height: 1rem;
   color: $text-color-light;
   margin: 0 0 0.5rem 0;
 }
