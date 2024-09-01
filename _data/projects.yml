@@ -25,7 +25,7 @@
 
 - name: How Bright Should a Virtual Object Be to Appear Opaque in Optical See-Through AR?
   descr: "Liu, J., Jindal, A., Mantel, C., Forchhammer, S. and Mantiuk, R.K., 2022, October. How bright should a virtual object be to appear opaque in optical see-through AR?. In 2022 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE."
-  demo: https://www.youtube-nocookie.com/embed/G4tjHNHBh0c?si=MEuKynwXOQgJ3vL9
+  demo: https://www.youtube-nocookie.com/embed/t6oQABJ0CiA?si=1gIAppYhg56ffVc4
   doi: https://doi.org/10.1109/ISMAR55827.2022.00085
   tags:
     - tag: Psychophysics
@@ -40,6 +40,16 @@
     - tag: Oculus Rift
     - tag: PS Move
     - tag: Storytelling
+
+- name: A Simulation System for Scene Synthesis in Virtual Reality
+  descr: "Liu, J., Mantel, C., Schweiger, F. and Forchhammer, S., 2021, November. A Simulation System for Scene Synthesis in Virtual Reality. In International Conference on Virtual Reality and Mixed Reality. Cham: Springer International Publishing."
+  demo: https://www.youtube-nocookie.com/embed/b71vj0nFGNA?si=1DrpmUOGukxgLviV
+  doi: https://doi.org/10.1007/978-3-030-90739-6_5
+  openaccess: https://orbit.dtu.dk/en/publications/a-simulation-system-for-scene-synthesis-in-virtual-reality
+  tags:
+    - tag: Unreal
+    - tag: 3D Reconstruction
+    - tag: View Synthesis
 
 - name: Whiteboard Cleaning Bot
   descr: "A whiteboard cleaning bot with web camera based marks detection."
@@ -66,11 +76,6 @@
 - name: Computational 3D Display
   descr: "Liu, J., Zhong, F., Mantel, C., Forchhammer, S. and Mantiuk, R.K., 2023. Computational 3D displays. In Immersive Video Technologies. Academic Press."
   doi: https://doi.org/10.1016/B978-0-32-391755-1.00023-7
-
-- name: A Simulation System for Scene Synthesis in Virtual Reality
-  descr: "Liu, J., Mantel, C., Schweiger, F. and Forchhammer, S., 2021, November. A Simulation System for Scene Synthesis in Virtual Reality. In International Conference on Virtual Reality and Mixed Reality. Cham: Springer International Publishing."
-  doi: https://doi.org/10.1007/978-3-030-90739-6_5
-  openaccess: https://orbit.dtu.dk/en/publications/a-simulation-system-for-scene-synthesis-in-virtual-reality
 
 - name: Plenoptic Modeling and Measurements of Novel Displays
   descr: "Liu, J., 2023. Plenoptic Modeling and Measurements of Novel Displays. (Doctoral dissertation)."
