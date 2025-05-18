@@ -79,3 +79,5 @@ Example of a timeline entry:
     - tag: Rails
   timeline-side: right
 ```
+Use third-party tool for album generation (applicable to Google Photo)
+https://www.publicalbum.org/blog/embedding-google-photos-albums

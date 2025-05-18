@@ -19,10 +19,10 @@
 
 - title: OQmented GmbH
   title-url: 
-  date: Sep 2023 - Present
+  date: Sep 2023 - Oct 2024
   subtitle: System Scientist
   tags:
-    - tag: Investigate, simulate, and model perceptual visual quality for LBS display systems, leveraging insights from human vision science
+    - tag: Developed LBS perceptual metrics; simulated a 3D light field display in Blender/Python; partnered with optical teams to optimize system quality.
   timeline-side: right
 
 - title: Technical University of Denmark
@@ -30,7 +30,7 @@
   date: Dec 2018 - Jun 2023
   subtitle: Early Stage Researcher
   tags:
-    - tag: Researched visual quality across near-eye display systems in a diverse consortium, achieving improvement in the computing performance-to-quality efficiency in rendering
+    - tag: Conducted interdisciplinary research in AR/VR yielding four publications; developed foveated HMD rendering with up to 30% performance-to-quality efficiency gain.
   timeline-side: right
 
 - title: Technical University of Denmark
@@ -47,7 +47,7 @@
   date: Oct 2021 - Jan 2022
   subtitle: Visiting Researcher
   tags:
-    - tag: Conducted a subjective experiment and generated a dataset on an HDR-multi-focal-stereo display, then developed a visual model for the perceptual opacity of virtual objects in AR fitting to the subjective data
+    - tag: Led an HDR stereo display opacity project; conducted experiments and trained a contrast-masking model with custom Psychtoolbox in Matlab.
   timeline-side: right
 
 - title: BBC Research & Development
@@ -55,7 +55,7 @@
   date: Feb 2020 - May 2020
   subtitle: Research And Development Intern
   tags:
-    - tag: Experimented on concentric mosaic light field and benchmarked view synthesis and 3D reconstruction methods classified by geometric proxies
+    - tag: Processed mosaic light field data; benchmarked Unreal 3D synthesis with neural/traditional methods on VIVE Pro Eye.
   timeline-side: right
 
 - title: Advanced Micro Devices
@@ -63,7 +63,7 @@
   date: Jul 2017 - Nov 2018
   subtitle: (Senior) Software Development Engineer
   tags:
-    - tag: Developed automation tools using Perl, Python and Arduino to profile the performance & power consumption of GPUs and managed the data archive
+    - tag: Automated performance profiling via Perl/Arduino in GPU products lifecycle; developed an efficient search site; mentored interns.
   timeline-side: right
 
 - title: Carnegie Mellon University
@@ -75,6 +75,14 @@
     - tag: Game Development
     - tag: Virtual Reality
   timeline-side: left
+
+- title: Philadelphia Game Lab
+  title-url: 
+  date: Jun 2015 - Aug 2015
+  subtitle: Immersive Technology Intern
+  tags:
+    - tag: Streamlined immersive VR with Unreal and multiple sensors; boosted rendering performance by up to 20% using PlayStation profiler.
+  timeline-side: right
 
 - title: Huazhong Uni. of Sci. & Tech.
   title-url: 

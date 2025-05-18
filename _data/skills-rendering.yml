@@ -5,11 +5,14 @@
 # - name: Framework
 #   weight: 5
 
-- name: Neural Scene Representations
+- name: View Synthesis
   weight: 4
 
 - name: Light Field
   weight: 5
+
+- name: Python
+  weight: 4
 
 - name: Blender
   weight: 4

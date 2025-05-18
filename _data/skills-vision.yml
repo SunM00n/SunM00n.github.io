@@ -8,7 +8,7 @@
 - name: Psychophysics
   weight: 4 
 
-- name: Psychtoolbox
+- name: DeepNet
   weight: 3
 
 - name: PyTorch

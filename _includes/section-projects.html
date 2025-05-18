@@ -22,6 +22,45 @@
             <iframe src="{{project.demo}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         {% endif %}
+        {% if project.carousel %}
+        <div class="carousel-wrapper" id="{{project.carouselid}}">
+          <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              let carouselLink = "{{ project.carousel }}";
+              let imageData = "{{ project.carouselimages }}";
+              let targetId = "{{ project.carouselid }}"; 
+          
+              // Split the image URLs using ';'
+              let images = imageData.split(";");
+          
+              // Create new `.pa-carousel-widget` element
+              let newElement = document.createElement("div");
+              newElement.classList.add("pa-carousel-widget");
+              newElement.setAttribute("data-link", carouselLink);
+              // Set width and height dynamically
+              newElement.style.width = "100%";
+              // After adding to DOM, calculate the width dynamically
+              setTimeout(() => {
+                let elementWidth = newElement.offsetWidth; // Get actual width in pixels
+                newElement.style.height = `${elementWidth * 0.5625}px`; // Set height as 75% of width
+              }, 0);
+          
+              // Append new images inside the new div
+              images.forEach(image => {
+                let obj = document.createElement("object");
+                obj.setAttribute("data", image.trim()); // Trim in case of extra spaces
+                newElement.appendChild(obj);
+              });
+        
+              // Add the new element inside `.carousel-wrapper`
+              //let wrapper = document.querySelector(".carousel-wrapper");
+              let wrapper = document.getElementById(targetId);
+              wrapper.appendChild(newElement);
+            });
+          </script>
+          <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async></script>
+        </div>
+        {% endif %}
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}

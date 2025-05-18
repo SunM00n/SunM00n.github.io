@@ -8,11 +8,8 @@
 - name: Near-Eye Displays
   weight: 5
 
-- name: AR/VR
-  weight: 5
-
 - name: Deep Optics
-  weight: 3
+  weight: 2
 
 - name: Zemax
   weight: 2
@@ -22,9 +19,6 @@
 
 - name: Laser Beam Scanning
   weight: 4
-
-- name: Python
-  weight: 5
-
+  
 - name: Arduino
   weight: 4

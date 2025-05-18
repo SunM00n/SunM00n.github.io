@@ -14,7 +14,7 @@ baseurl: ""
 username: Jingyu (Jade) Liu
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job title, e.g. Fullstack Developer
-typing_text: Imaging & Display System Researcher
+typing_text: xR Display Scientist
 # email: Your E-Mail address for the email button.
 email: liuirenee@gmail.com
 # For every social button you want to display, set your username or userid
@@ -37,7 +37,7 @@ show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
 about_me_title: About Me
 # about_me_description: This will be displayed under the title.
-about_me_description: I am an experienced researcher with over 10 years of expertise in AR/VR and near-eye display systems. My expertise spans system-level solutions, from rendering to display technology and vision science. Driven by a passion for enhancing immersive user experiences, I leverage computational imaging and display technologies to contribute to the advancement of next-generation displays.
+about_me_description: I am a system scientist with over 10 years of experience in xR and near-eye displays. My expertise encompasses system-level solutions tailored to various display technologies, integrating rendering techniques, human vision science, and cross-functional product innovation. Driven by a passion for enhancing immersive user experiences, I am dedicated to advancing next-generation computational display systems.
 
 # SKILLS SECTION
 # show_skills_card:

@@ -291,6 +291,7 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-github-metadata
+  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.5.17
